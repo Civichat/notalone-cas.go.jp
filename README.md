@@ -9,6 +9,19 @@
 	- チャットボットによる「探索」のデータは集め方が難しく、今回のような方法になっています
 	- 何かいい方法あれば教えてください
 
+## ファイル構成について
+- 基本的にこのリポジトリはデータを抽出しただけです
+- その結果はSpread sheetに保存してあります
+	- しかし、チャットボットにより推薦されるデータの形をSpread sheetに落とし込むことは難しかったです
+	- なので、「公的制度のみ」を抽出したデータを[こちらのSpread sheet](https://docs.google.com/spreadsheets/d/1oC0SS0gzlQYe7yYcw3CUxYeia6sb5LzNWNDDF7oV3Fk/edit#gid=1429606858)においておきます
+	- 同様のファイルを`data.csv`とし、[こちら](https://github.com/Civichat/notalone-cas.go.jp/blob/master/data.csv)にもコミットしておきます
+
+```
+├── LICENCE
+├── README.md
+└── data.csv
+```
+
 ## こちらの引用について
 以下、同サービスの利用規約である [https://notalone-cas.go.jp/terms](https://notalone-cas.go.jp/terms/) から引用
 
@@ -23,3 +36,10 @@
 ## なぜこれをしたか
 - データを公開して欲しかったからです
 [![Image from Gyazo](https://i.gyazo.com/d301ac69845a24a64f128a76de397d12.png)](https://gyazo.com/d301ac69845a24a64f128a76de397d12)
+
+
+## コミットした人間は誰か
+- 高木俊輔（Shunsuke Takagi）です
+	- [twitter.com/tkgshn](https://twitter.com/tkgshn)
+- [株式会社Civichat](https://civichat.jp)という会社を経営しています
+- [包摂研究会](https://tkgshn.github.io/projpoverty/)という活動の一環です
